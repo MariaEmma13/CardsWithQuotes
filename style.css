@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: franklin gothic medium;
+    font-size: 15px;
+}
+
+section{
+    width: 100%;
+}
+
+section .card{
+    background-color: lightgoldenrodyellow;
+    color: rgb(12, 12, 12);
+    width:400px ;/*marimea cardului*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20%;
+    overflow: hidden;
+}
+
+section .card figure img{
+    width: 100%;
+
+}
+
+section .card h3,h4{
+    padding: 10px;
+    color: magenta;
+    border-color: black;
+}
